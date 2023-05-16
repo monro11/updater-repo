@@ -7,8 +7,8 @@
 	<default remote="github" revision="dunfell" />
 
 	<!-- Core layers: poky and meta-oe -->
-	<project remote="yocto" revision="dunfell" name="poky"/>
-	<project remote="openembedded" revision="dunfell" name="meta-openembedded"  />
+ 	<project name="poky" path="poky" remote="yocto" revision="11f05ffddd0a7adf05b1c016f73b10ddfa2daa10"/>
+  	<project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="7ae42df58f2bcc730153715c3339a6875b0b2497"/>
 
 	<!-- Updater layers -->
 	<project path="meta-updater" name="advancedtelematic/meta-updater" />
